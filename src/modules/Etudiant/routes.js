@@ -14,14 +14,14 @@ var dashRoutes = [
   {
     path: "/modules",
     name: "Modules",
-    icon: "design_app",
+    icon: "design_image",
     component: Modules,
     layout: "/etudiant",
   },
   {
     path: "/notes",
     name: "Notes",
-    icon: "design_app",
+    icon: "education_agenda-bookmark",
     component: Notes,
     layout: "/etudiant",
   }

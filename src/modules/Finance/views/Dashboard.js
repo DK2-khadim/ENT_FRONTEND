@@ -7,7 +7,8 @@ import {
 } from 'reactstrap';
 
 
-class Modules extends Component {
+class Dashboard extends Component {
+
     render(){
         return(
             <>
@@ -17,10 +18,10 @@ class Modules extends Component {
                     <Col xs={12}>
                         <Card>
                             <CardHeader>
-                            <CardTitle tag="h4">Modules</CardTitle>
+                            <CardTitle tag="h4">Finance</CardTitle>
                             </CardHeader>
                             <CardBody>
-                                <h1>Exemple table des modules</h1>
+                                <h1>Hello world</h1>
                             </CardBody>
                         </Card>
                     </Col>
@@ -31,4 +32,4 @@ class Modules extends Component {
     }
 }
 
-export default Modules
+export default Dashboard

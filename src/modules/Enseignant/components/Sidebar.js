@@ -35,15 +35,15 @@ class Sidebar extends React.Component {
       <div className="sidebar" data-color={this.props.backgroundColor}>
         <div className="logo">
           <Link
-            to="/"
+            to=""
             className="simple-text logo-mini"
           >
             <div className="logo-img">
-              {/* <img src="" alt="react-logo" /> */}
+              {/* <img src="" alt="logo" /> */}
             </div>
           </Link>
           <Link
-            to="/"
+            to=""
             className="simple-text logo-normal">
             ENT
           </Link>

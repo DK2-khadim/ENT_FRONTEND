@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-
 import PanelHeader from './../../../components/PanelHeader/PanelHeader';
 
 import {
     Row,Col,Card,CardBody,CardTitle,CardHeader
 } from 'reactstrap';
 
-
-class Modules extends Component {
+class Dashboard extends Component {
     render(){
         return(
             <>
@@ -17,10 +15,10 @@ class Modules extends Component {
                     <Col xs={12}>
                         <Card>
                             <CardHeader>
-                            <CardTitle tag="h4">Modules</CardTitle>
+                            <CardTitle tag="h4">Enseignant</CardTitle>
                             </CardHeader>
                             <CardBody>
-                                <h1>Exemple table des modules</h1>
+                                <h1>Hello world</h1>
                             </CardBody>
                         </Card>
                     </Col>
@@ -31,4 +29,4 @@ class Modules extends Component {
     }
 }
 
-export default Modules
+export default Dashboard
